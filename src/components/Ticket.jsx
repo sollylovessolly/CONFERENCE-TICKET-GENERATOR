@@ -51,7 +51,7 @@ const Ticket = () => {
               <div className="ticket-details">
                 <div className="details-grid">
                   <div><p>Name:</p> {ticketData.fullName || "N/A"}</div>
-                  <div><p>Email:</p> {ticketData.email || "N/A"}</div>
+                  <div><p>Email:</p> <p id="email"> {ticketData.email || "N/A"}</p></div>
                   <div><p>Ticket Type:</p>{storedFormData.ticketType || "N/A"}</div>
                   <div><p>Ticket Number:</p>{storedFormData.ticketNum || "N/A"}</div>
                 </div>
