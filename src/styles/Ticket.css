@@ -1,0 +1,115 @@
+.main-container1 {
+    border: 1px solid #24A0B5;
+    padding: 40px;
+    background-color: #041E23;
+    max-width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+.ticket-card {
+    width: 320px;
+    height: 500px; 
+    margin: 20px auto;
+    position: relative;
+    background: url("../assets/TICKET.png") no-repeat center;
+    background-size: 78%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: azure;
+}
+.ticket-container{
+    text-align: center;
+}
+
+.ticket-content {
+    position: absolute;
+    top: 40%; 
+    left: 47%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    width: 67%;
+    background-color: #062A2F;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid #24A0B5;
+
+}
+.ticket-content h1{
+    font-size: 1.2rem;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
+.ticket-content p{
+    font-size: 0.5rem;
+    margin-top: 0px;
+}
+.img{
+    border: 0.5px solid #24A0B5;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    left: 24%;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+.img img{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+.special-request{
+    padding-top: 10px;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.btn {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #24A0B5;
+    color: azure;
+    background: transparent;
+    cursor: pointer;
+}
+
+.btn.primary {
+    background-color: #24A0B5;
+}
+.details-grid {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: left;
+    font-size: 0.8rem;
+    color: azure;
+
+  }
+  .ticket-details{
+    border-radius: 10px;
+    border: 0.5px solid #24A0B5;
+    background-color: #08343C;
+  }
+  
+.details-grid div {
+    
+    padding: 5px ;
+    border: 0.5px solid #24A0B5;
+    border-radius: 5px;
+  }
+  

@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Road+Rage&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+.bg {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, #02191D 60%, #08252B 85%);
+    border: 2px solid black;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.main-container {
+    border: 1px solid #24A0B5;
+    padding: 40px;
+    background-color: #041E23;
+    max-width: 50%;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.header-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: azure;
+    padding-bottom: 10px;
+    gap: 10px;
+}
+.road-rage-regular {
+    font-family: "Road Rage", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+#road-rage{
+    font-size: 4rem;
+}
+.heading {
+    font-size: 1.3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.step {
+    font-size: 0.7rem;
+    align-self: center;
+}
+
+.underline {
+    height: 2px;
+    width: 100%;
+    background-color: #0D414A;
+    margin-bottom: 20px;
+    border-radius: 2px;
+}
+
+#colored {
+    background-color: #24A0B5;
+    height: 2px;
+    width: 40%;
+}
+
+.selection-container {
+    border: 1px solid #24A0B5;
+    border-radius: 15px;
+    padding: 20px;
+    color: azure;
+}
+
+
+.box-main {
+    border: 0.5px solid #24A0B5;
+    background: linear-gradient(-30deg, #02191D 20%, #08252B 40%);
+    padding: 40px;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.hr {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 1.5px solid #0D414A;
+    border-radius: 3px;
+}
+
+.second-main-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    border: 1px #24A0B5 solid;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#box1, #box2, #box3 {
+    border: 1px solid #24A0B5;
+    border-radius: 15px;
+    padding: 8px;
+    font-size: 0.8rem;
+    width: 150px;
+    height: 120px;
+    cursor: pointer;
+}
+
+#box1:hover, #box2:hover, #box3:hover {
+    background-color: #12464E;
+    transition: 0.3s;
+}
+.active{
+    background-color: #12464E;
+}
+
+.quantity-div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#quantity {
+    background-color: #08252B;
+    border: 1px solid #24A0B5;
+    height: 40px;
+    color: azure;
+    font-size: 1rem;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    width: 100%;
+}
+
+#bottom-button, #next-button {
+    width: 50%;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+#bottom-button {
+    background: transparent;
+    border: 1px solid #24A0B5;
+    color: azure;
+}
+
+#next-button {
+    background-color: #24A0B5;
+    border: 1px solid #24A0B5;
+    color: azure;
+}
+
+
+@media (max-width: 768px) {
+    .main-container {
+        padding: 30px;
+        max-width: 95%;
+    }
+
+    .heading {
+        font-size: 1.1rem;
+    }
+
+    .step {
+        font-size: 0.6rem;
+    }
+
+    .second-main-box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #box1, #box2, #box3 {
+        width: 80%;
+        height: auto;
+        padding: 15px;
+    }
+
+    #quantity {
+        font-size: 0.9rem;
+    }
+
+    #bottom-button, #next-button {
+        min-width: 180px;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-container {
+        padding: 20px;
+    }
+
+    .heading {
+        font-size: 1rem;
+    }
+
+    .step {
+        font-size: 0.6rem;
+    }
+
+    .header-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .second-main-box {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #box1, #box2, #box3 {
+        width: 100%;
+        padding: 10px;
+    }
+
+    #quantity {
+        font-size: 0.8rem;
+    }
+
+    #bottom-button, #next-button {
+        min-width: 150px;
+    }
+}

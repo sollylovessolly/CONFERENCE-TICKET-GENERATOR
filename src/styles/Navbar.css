@@ -1,0 +1,45 @@
+.navbar-bg{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #02191D;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    margin: 4%;
+    border-radius: 20px;
+    height: 6px;
+    overflow: hidden;
+    align-items: center;
+    border: 0.5px solid #24A0B5;
+}
+.nav-list{
+    display: flex;
+    justify-content: space-around;
+}
+.navitems{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(171, 170, 170);
+    font-size: 1rem;
+    cursor: pointer;
+    
+
+}
+
+.navitems:hover{
+    color: azure;
+}
+.my-tickets button{
+    padding: 10%;
+    width: 120px;
+    cursor: pointer;
+    background: azure;
+    border-radius: 10px;
+    border: none;
+}
+@media screen and (max-width: 768px) {
+    .nav-list {
+        display: none; 
+    }
+
+}
+
